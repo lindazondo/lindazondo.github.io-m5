@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    background-color: #951c49;
+    line-height: 1.6rem;
+  }
+  
+  /* Home css */
+  
+  .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6b319;
+    color: white;
+  }
+  .navbar img[alt="logo_img"] {
+    padding: 1.1rem;
+    width: 15%;
+    margin-left: 102px;
+  }
+  
+  .brand-title {
+    margin-left: -9.5rem;
+    margin-top: -2.6rem;
+    font-size: 32px;
+    color: green;
+    font-weight: bold;
+  }
+  .brand-title p {
+    margin-top: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-links {
+    height: 100%;
+    margin-right: -9rem;
+    margin-top: -3.5rem;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #951c49;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-links .fa {
+    margin-right: 34px;
+    font-size: 35px;
+    color: #951c49;
+  }
+  .call {
+    margin-right: 2rem;
+    padding: 18px;
+    margin-top: -3.5rem;
+  }
+  .call a {
+    font-size: 32px;
+    text-decoration-line: none;
+    color: #951c49;
+    margin-top: -3.5rem;
+  }
+  .call:hover {
+    background-color: white;
+    transition: 0.5s ease all;
+  }
+  .deliver {
+    float: right;
+    margin-right: 48px;
+    margin-top: -22px;
+    color: green;
+  }
+  /* toggle css */
+  .toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  /* icon fA*/
+  .iconsFa .fa {
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    margin-right: 1.5rem;
+  }
+  .iconsFa:hover {
+    background: white;
+    transition: 0.5s ease all;
+  }
+  /* jumbotron */
+  .jumbotron {
+    padding: 31px;
+    text-align: center;
+  }
+  .jumbotron img {
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 0 50px #3f0c1f;
+  }
+  /* Option on the food session */
+  .mainContainerOption {
+    width: 98%;
+    margin: auto -5px 23px auto;
+  }
+  .main_contentMain_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main_content {
+    width: 23rem;
+    border: 2px solid black;
+    margin-right: 27px;
+    margin-top: 52px;
+  }
+  .main_content:hover {
+    border: 2px solid white;
+    transition: 0.4s ease all;
+  }
+  .main_content img {
+    width: 100%;
+  }
+  .options {
+    background: black;
+    color: white;
+    margin-top: -57px;
+    position: absolute;
+    width: 26.9%;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 35px;
+    height: 59px;
+  }
+  .options p {
+    margin-top: 6px;
+  }
+  /* footer */
+  footer {
+    background: #222;
+    color: white;
+    /*     width: 110%; */
+    padding: 81px;
+    margin-top: 5rem;
+    margin-left: -6rem;
+    display: flex;
+    align-items: center;
+  }
+  .hourTrade {
+    width: 54%;
+  }
+  .hourTrade,
+  .address,
+  .feedback {
+    margin-left: 110px;
+  }
+  .address,
+  .feedback {
+    margin-left: 43px;
+  }
+  .address span {
+    color: green;
+    font-size: 1rem;
+  }
+  .copyright {
+    color: white;
+    margin-top: -53px;
+    text-align: center;
+  }
+  
+  /* menu */
+  .menuCategory {
+    background-color: #61122f;
+    padding: 23px;
+    line-height: 1.7;
+    color: white;
+    max-width: 100%;
+  }
+  .menuCategory header {
+    text-align: center;
+  }
+  .menuCategory + h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+  }
+  /* menu image css */
+  
+  .menuOption {
+    width: 14rem;
+    margin-right: 74px;
+  }
+  .menuOption img {
+    width: 100%;
+  }
+  .forMenu {
+    width: 13.9rem;
+  }
+  .forMenu p {
+    font-size: 22px;
+  }
+  
+  /* external menu page */
+  .menuContainerExternal {
+    width: 92%;
+    text-align: center;
+    color: white;
+    margin: auto;
+  }
+  .firstDivContainer {
+    display: flex;
+  }
+  .secondDivContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .ImageDivContainer {
+    width: 51%;
+  }
+  .innerDivContainer {
+    width: 48%;
+  }
+  .innerDivContainer p {
+    font-size: 16px;
+    padding: 9px;
+  }
+  /* responsiveness */
+  /* nav bar */
+  @media (max-width: 900px) {
+    /* nav bar */
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navbar img[alt="logo_img"] {
+      display: none;
+    }
+    .brand-title span {
+      font-size: 12px;
+    }
+    .toggle-button {
+      display: flex;
+    }
+  
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .navbar-links ul li {
+      text-align: center;
+    }
+  
+    .navbar-links ul li a {
+      padding: 0.5rem 1rem;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+    .brand-title {
+      margin-left: 8%;
+      margin-top: 1em;
+      font-size: 22px;
+    }
+    .call {
+      margin-top: 4px;
+      margin-left: 20%;
+      width: 101%;
+    }
+  
+    /*     main content */
+    .main_content {
+      width: 64%;
+      margin-right: 0rem;
+    }
+    .options {
+      width: 62%;
+    }
+    .options p {
+      font-size: 28px;
+    }
+    /* menu responsiveness */
+    .forMenu {
+      width: 59%;
+    }
+    .forMenu p {
+      font-size: 22px;
+    }
+    /*  footer  */
+    footer {
+      flex-direction: column;
+    }
+    .address,
+    .feedback {
+      border-top: 2px solid white;
+      border-left: none;
+    }
+  }
+  @media (max-width: 380px) {
+    .jumbotron img {
+      width: 113%;
+      margin-top: 5%;
+      margin-left: -6%;
+    }
+    .hourTrade,
+    .address,
+    .feedback {
+      margin-left: 18px;
+    }
+    .hourTrade p,
+    .address,
+    .feedback q {
+      font-size: 16px;
+    }
+    .feedback {
+      width: 101%;
+    }
+    .hourTrade {
+      width: 85%;
+    }
+    .copyright {
+      margin-top: -70px;
+    }
+    /* menu */
+    .forMenu {
+      width: 54%;
+    }
+  }
